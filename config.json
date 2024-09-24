@@ -1,0 +1,6 @@
+{
+	"backupFolder": "./backups",
+	"sourceFolder": "./source",
+	"maxBackups": 5,
+	"backupInterval": "600000"
+}

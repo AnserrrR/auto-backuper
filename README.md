@@ -24,5 +24,3 @@
 	  "maxBackups": 5,
 	  "backupInterval": "600000"
    }
-
-   
