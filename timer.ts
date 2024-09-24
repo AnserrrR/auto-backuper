@@ -1,9 +1,9 @@
-import { performBackup } from './backup';
-import config from './config.json';
+import {performBackup} from "./backup";
+import config from "./config.json";
 
 // Функция для запуска таймера
 function startBackupTimer(): void {
-	const backupInterval = config.backupInterval;
+	const backupInterval: number = Number(config.backupInterval);
 
 	// Выполняем бэкап сразу
 	performBackup();
